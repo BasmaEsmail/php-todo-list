@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url(../img/backgroun.jpg);
+    background-size: cover;
+}
+
+.form-div  {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5%;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #4a8381;
+    border-color: #4a8381
+}
+.btn-primary:hover{
+    background: white;
+    color: black;
+    border-color: #4a8381
+}
+input{
+    margin:10px auto 10px auto;
+}
+.card-title{
+    display: inline;
+}
+.check{
+    width: 20px;
+}
+.tasks{
+    width: 40%;
+    margin:5% auto ;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.task {
+    margin:3%;
+}
+.card{
+    box-shadow: 2px 2px 5px grey;
+}
+.delete{
+    font-size: 22px; 
+    color: #4a8381;
+    cursor: pointer;
+}
+.checked{
+    color:grey !important;
+}
